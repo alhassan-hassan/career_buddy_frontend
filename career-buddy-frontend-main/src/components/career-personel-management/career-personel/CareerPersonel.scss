@@ -1,0 +1,47 @@
+.career-personel {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-bottom: 0.2rem;
+    max-height: 600px;
+    overflow-y: scroll;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.career-personel:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.003);
+}
+
+.career-personel:nth-child(odd) {
+    background-color: rgb(245, 248, 250);
+} 
+
+.trash_avail_ {
+    margin: 10px;
+}
+
+.career-personel img {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+
+.personel-prof_ {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.role { 
+    width: 25%;
+    font-size: 1rem;
+}
+
+

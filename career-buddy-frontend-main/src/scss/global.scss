@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Google+Sans:200,300,400,500,600,700,900");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--app-font-primary);
+}
+
+:root {
+  --app-font-primary: "Google Sans";
+  // --scrollbar-track-color: #f1f1f1;
+  --scrollbar-track-color: transparent;
+  --scrollbar-thumb-color: #ddd;
+  --scrollbar-thumb-hover-color: #bbb;
+  --app-dark-color: #222;
+  --app-theme: #a76a99;
+  --input-border-color: #dadada;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  outline: none;
+  border: none;
+}

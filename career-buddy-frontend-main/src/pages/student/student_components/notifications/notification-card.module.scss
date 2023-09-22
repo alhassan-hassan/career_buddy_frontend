@@ -1,0 +1,46 @@
+.wrapper {
+  padding: 2rem;
+  border-bottom: 0.05rem solid #eee;
+  cursor: pointer;
+  position: relative;
+
+  &:hover {
+    background-color: #fafafa;
+  }
+
+  // date
+  small {
+    color: var(--app-theme);
+  }
+
+  //   from
+  strong {
+  }
+
+  article {
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.isViewedDot {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background-color: var(--app-theme);
+  position: absolute;
+  left: 8%;
+  top: 7%;
+}
+
+.isNotViewedDot {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  border: 0.1rem solid var(--app-theme);
+  position: absolute;
+  left: 8%;
+  top: 7%;
+}

@@ -1,0 +1,126 @@
+.cpa-management {
+  padding: 3rem 5rem;
+  // height: 650px;
+}
+
+// .cpa-manag {
+//   width: 65%;
+//   padding: 2rem;
+//   border-radius: 10px;
+//   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+//   height: auto;
+//   // max-height: 700px;
+//   // overflow-y: scroll;
+//   // scroll-behavior: smooth;
+// }
+
+.cpa-manag {
+  width: 65%;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  height: auto;
+  max-height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.per-management {
+  display: flex;
+  justify-content: space-between;
+}
+
+.per-summary {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 30%;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  height: 200px;
+  max-height: 400px;
+}
+
+.student-list1 {
+  height: 500px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.m-record {
+  margin-top: 5rem;
+  color: #a76a99cc;
+}
+
+.back {
+  margin-top: 2rem;
+}
+
+.m-record {
+  margin-top: 5rem;
+  color: #a76a99cc;
+}
+
+.per-summary div {
+  overflow-y: scroll;
+}
+
+.notes {
+  margin: 10px 0 2rem;
+  font-size: 1.4rem;
+  color: #a76a99cc;
+  display: flex;
+}
+
+#take-it {
+  color: #a76a99cc;
+}
+
+.add-fresh {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // margin-top: 0.7rem;
+}
+
+.add-fresh button {
+  color: #fff;
+  background-color: #a76a99;
+  padding: 0.8rem 1rem;
+  font-size: large;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.backer {
+  // width: 80px;
+  // height: 80px;
+  border-radius: 50%;
+  padding: 0.6rem;
+  background-color: "#fff";
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  color: #a76a99;
+  &:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+}
+
+#backer {
+  cursor: pointer;
+
+  &:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+}
+
+.add-fresh button:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.03);
+}

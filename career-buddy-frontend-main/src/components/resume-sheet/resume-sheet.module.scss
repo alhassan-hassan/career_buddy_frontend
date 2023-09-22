@@ -1,0 +1,52 @@
+$sm-size: 568px;
+$md-size: 768px;
+$lg-size: 992px;
+$xl-size: 1200px;
+
+/* Small (sm) devices (landscape phones, 567px and up) */
+@media screen and (min-width: $sm-size) {
+  :root {
+  }
+}
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media screen and (min-width: $md-size) {
+  .sheet {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 210mm;
+    height: 297mm;
+    padding: 1in;
+    background-color: #fff;
+    color: #333;
+    font-family: "Google Sans" "verdana";
+    font-size: 8.5pt;
+    overflow: auto;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+
+    h1 {
+      font-size: 8.5pt;
+    }
+    hr {
+      background-color: #222;
+    }
+  }
+
+  .personalInfo {
+    text-align: center;
+  }
+}
+
+/* Large (lg) devices (desktops, 992px and up) */
+@media screen and (min-width: $lg-size) {
+  :root {
+  }
+}
+
+/* Extra (xl) devices (large desktops, 1200px and up) */
+@media screen and (min-width: $xl-size) {
+  :root {
+  }
+}

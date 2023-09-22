@@ -1,0 +1,65 @@
+$sm-size: 568px;
+$md-size: 768px;
+$lg-size: 992px;
+$xl-size: 1200px;
+
+/* Small (sm) devices (landscape phones, 567px and up) */
+@media screen and (min-width: $sm-size) {
+}
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media screen and (min-width: $md-size) {
+  .form {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 100%;
+    width: 25vw;
+    background-color: white;
+    overflow-y: auto;
+
+    article {
+      padding: 1rem;
+    }
+
+    header {
+      padding: 0.2rem 0;
+      font-size: 0.85rem;
+      font-weight: 450;
+      color: #aaa;
+      cursor: pointer;
+      display: grid;
+      grid-template-columns: 10% 80% 10%;
+      align-items: center;
+      justify-items: flex-start;
+
+      span{
+        margin: 0.8rem;
+      }
+
+      svg {
+        all: unset;
+        color: #aaa;
+      }
+
+      &:hover {
+        background-color: var(--app-theme);
+        color: white;
+
+        svg {
+          color: white;
+        }
+      }
+
+      //targets the div parent of the dropdown icon
+      & > div:last-child {
+        justify-self: end;
+      }
+    }
+  }
+
+  // highlight the header of each subform when any of its child fields is focused
+  .form > section:focus-within header,
+  .form > section:focus-within svg {
+    background-color: var(--app-theme);
+    color: white;
+  }
+}

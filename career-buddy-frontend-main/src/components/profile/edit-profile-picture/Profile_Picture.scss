@@ -1,0 +1,86 @@
+.lds-ellipsis {
+  margin-left: 0; 
+}
+
+.modal-header-edit {
+  position: relative;
+  top: 30%;
+  width: 600px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.modal-header-edit span{
+  padding-bottom: 1rem;
+}
+
+.image_preview {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  overflow: hidden;
+  margin: 6px auto;
+}
+
+.image_preview img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.upload {
+  color: #a76a99;
+  margin-left: 6rem;
+  // margin-top: 2rem;
+}
+
+#meantime {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(247, 244, 241);
+  border: 1.5px dashed rgb(227, 217, 217);
+  margin: 1.3rem auto;
+}
+
+#update-pic {
+  background-color: #a76a99;
+  padding: 8px;
+  width: 200px;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.modal-header .close-button:hover {
+    cursor: pointer;
+    transition: 0.5s ease;
+    transform: scale(1.01);
+} 
+
+.close-button1 {
+  display: flex;
+  justify-content: end;
+  font-size: x-large;
+  color: #a76a99;
+  cursor: pointer;
+}
+
+.modal-title1 {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #a76a99;
+  font-weight: bold;
+}
+
+.letsload {
+  width: 100%;
+  
+}

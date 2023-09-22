@@ -1,0 +1,70 @@
+.wrapper,
+.wrapperNoLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 1.5rem;
+  cursor: pointer;
+  color: #555;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.wrapperNoLabel:after {
+  display: none;
+}
+
+.wrapper:after {
+  content: attr(label);
+  position: absolute;
+  top: 10%;
+  right: 18%;
+  background-color: var(--app-theme);
+  border-radius: 50%;
+  width: 1.2rem;
+  height: 1.2rem;
+  text-align: center;
+  line-height: 1.2rem;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.wrapper:hover::after {
+  background-color: white;
+  color: var(--app-theme);
+}
+
+small {
+  position: absolute;
+  z-index: 9999;
+  display: none;
+  padding: 0.5rem 1rem;
+  background-color: var(--app-theme);
+  color: white;
+  border-radius: 0.3rem;
+  animation: pop-out 0.1s ease-in-out forwards;
+  width: max-content;
+}
+
+@keyframes pop-out {
+  from {
+    left: 50%;
+    opacity: 0;
+  }
+  to {
+    left: 110%;
+    opacity: 1;
+  }
+}
+
+.wrapper:hover,
+.wrapperNoLabel:hover {
+  cursor: pointer;
+  background-color: var(--app-theme);
+  color: white;
+
+  small {
+    display: flex;
+  }
+}

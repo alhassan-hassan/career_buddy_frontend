@@ -1,0 +1,37 @@
+.an-avail {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    margin: 5px 0 1rem;
+    border-radius: 5px;
+    color: #a76a99;
+    transition: opacity 5s ease-out;
+}
+
+.an-avail:hover {
+    background-color:#f7f3f6 ;
+}
+
+.outlook {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#details_1, #details_2 {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.calendar, .trash_avail {
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 10px;
+}
+
+.trash_avail {
+    cursor: pointer;
+}

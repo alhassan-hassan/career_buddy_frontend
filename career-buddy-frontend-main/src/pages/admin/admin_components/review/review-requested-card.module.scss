@@ -1,0 +1,33 @@
+.wrapper {
+  border-bottom: 0.05rem solid #eee;
+  padding: 2rem;
+  width: 100%;
+  cursor: pointer;
+
+  h6 {
+    font-size: 100%;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+
+  &:hover {
+    background-color: #fafafa;
+    // border-left: 0.15rem solid var(--app-theme);
+    color: var(--app-theme);
+  }
+  small {
+    all: unset;
+    color: #aaa;
+    // color: #cc666c;
+  }
+
+  & > div {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  svg {
+    color: #cc666c;
+    // color: var(--app-theme);
+  }
+}

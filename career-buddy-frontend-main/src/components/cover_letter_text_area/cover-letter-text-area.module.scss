@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  // height: 100%;
+  // justify-content: center;
+}
+.wrapper textarea {
+  width: 210mm;
+  height: 297mm;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100%;
+  resize: none;
+  padding: 1in;
+  line-height: 21pt;
+  // font-size: 8.5pt;
+  font-size: 15px;
+  font-family: var(--app-font-primary);
+  color: var(--app-dark-color);
+  // background-color: transparent;
+  // border-left: 1px solid var(--input-border-color);
+  // border-radius: 0.3rem;
+  transition: all 0.2s ease-in-out;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  //   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: #444;
+
+  &:focus {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}

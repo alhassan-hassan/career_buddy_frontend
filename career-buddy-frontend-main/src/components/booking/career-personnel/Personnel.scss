@@ -1,0 +1,73 @@
+.book-person {
+    width: 250px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 10px;
+    margin: 2rem 10px;
+}
+
+.profile, .profile-active{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto; 
+    border-radius: 50%;
+}
+
+.profile-active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#per-avat {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 1rem;
+}
+
+#per-pic {
+    width: 130px;
+    margin-top: 1rem;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.details-book {
+    margin-top: 1.2rem;
+    font-size: 1.1rem;
+    
+    button {
+        background-color: rgba(167, 106, 153, 0.8);
+        padding: 0.5rem 1rem;
+        color: #fff;
+        margin-top: 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        transition: 0.3s ease-in-out;
+        transform: scale(1.03);
+    }
+}
+
+.cancel-book {
+    background-color: rgb(167, 106, 153);
+    padding: 0.4rem 1rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-book:hover {
+    transition: 0.3s ease;
+    transform: scale(1.03);
+}
+
+#name-book {
+    font-size: 1.3rem;
+    font-weight: 400px;
+}
+
+#car-name {
+    font-size: 1rem;
+}

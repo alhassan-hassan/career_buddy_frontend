@@ -1,0 +1,48 @@
+$sm-size: 568px;
+$md-size: 768px;
+$lg-size: 992px;
+$xl-size: 1200px;
+
+.wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/*
+* styles for all pages loaded on the right of the sidebar
+* flex-grow of 1 to fill up the space avaialable
+*
+*/
+.cpaPages {
+  flex-grow: 1;
+  height: 100vh;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Small (sm) devices (landscape phones, 567px and up) */
+@media screen and (min-width: $sm-size) {
+  :root {
+  }
+}
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media screen and (min-width: $md-size) {
+  .main {
+  }
+}
+
+/* Large (lg) devices (desktops, 992px and up) */
+@media screen and (min-width: $lg-size) {
+  :root {
+  }
+}
+
+/* Extra (xl) devices (large desktops, 1200px and up) */
+@media screen and (min-width: $xl-size) {
+  :root {
+  }
+}

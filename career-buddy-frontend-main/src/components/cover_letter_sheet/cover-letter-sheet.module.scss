@@ -1,0 +1,15 @@
+.sheet {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 210mm;
+  height: 297mm;
+  padding: 1in;
+  background-color: #fff;
+  color: #333;
+  font-family: var(--app-font-primary);
+  //   font-size: 8.5pt;
+  overflow: auto;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100%;
+}

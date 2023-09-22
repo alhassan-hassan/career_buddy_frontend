@@ -1,0 +1,65 @@
+.reviewslist {
+  height: 100vh;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+  // box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 20vw;
+}
+
+.documentParent {
+  height: 100vh;
+  overflow-y: auto;
+  position: relative;
+
+  & > div {
+    height: 100%;
+  }
+}
+
+.textAreaParent > div {
+  height: 100vh;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.textAreaParent:focus-within {
+  position: relative;
+  left: -5vw;
+  background-color: white;
+  transition: all 1s linear;
+}
+
+.activeDoc {
+  all: unset;
+  position: fixed;
+  top: 3.5%;
+  left: 25%;
+  transform: translate(-25%, -3.5%);
+  z-index: 9999;
+  padding: 0.5rem 0.8rem;
+  background-color: var(--app-theme);
+  color: white;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  font-size: 80%;
+}
+
+.reviewButtonParent {
+  position: fixed;
+  bottom: 2.5%;
+  right: 5%;
+  transform: translate(-5%, 2.5%);
+  z-index: 9999;
+
+  button {
+    background-color: var(--app-theme);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+}

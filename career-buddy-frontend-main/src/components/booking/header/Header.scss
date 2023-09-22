@@ -1,0 +1,111 @@
+.header-book {
+    width: 100%;
+    align-items: center;
+    margin: 1.4rem 0;
+}
+
+.group-book {display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 65%;
+
+    input {
+        width: 55%;
+        height: 43px;
+        background-color: rgb(245, 248, 250);
+        border-radius: 10px;
+        padding: 0.5rem 1.5rem;
+    }
+
+    input:focus {
+        background-color: #fff;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+}
+
+.declare-book {
+    font-size: 1.4rem;
+    color: rgba(167, 106, 153, 0.8);
+    font-weight: 400;
+}
+
+.per-summary-book {
+    float: right;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 32%;
+    height: auto;
+    min-height: 300px;
+    max-height: 600px;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    margin: 1.5% 0 0 10px;
+    overflow-y: scroll;
+}
+
+.notes-book {
+    margin: 10px 0 0.6rem;
+    font-size: 1.2rem;
+    color: #a76a99cc;
+    display: flex;
+}
+
+.tablar {
+    width: 100%;
+}
+
+
+.tablar {
+    width: 100%;
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.8rem;
+}
+
+.categorize:nth-child(even) {
+    background-color: rgb(243, 243, 243);
+}
+
+th {
+    background-color: #a76a99cc;
+    color: white;
+    text-align: start;
+}
+
+.trash_avail, .trash_appoint {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.trash_appoint {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#nothing {
+    color: rgb(209, 152, 152);
+    font-size: large;
+    margin-top: 5rem;
+}
+
+.cancel-book {
+    font-size: 0.5rem;
+    margin-right: 3px;
+}
+
+#controller {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#view-more {
+    color: rgba(0, 0, 0, 0.6);
+}

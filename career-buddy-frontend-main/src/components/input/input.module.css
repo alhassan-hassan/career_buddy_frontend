@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+.wrapper .small {
+  all: unset;
+  color: #aaa;
+  transition: color 0.1s linear;
+}
+
+.wrapper .label {
+  margin-bottom: 0.2rem;
+}
+
+.wrapper .input {
+  padding: 0.7rem 1rem;
+  border: 0.09rem solid var(--input-border-color);
+  font-family: "Google Sans";
+  border-radius: 5px;
+  transition: border 0.05s linear;
+}
+
+.wrapper .input:focus {
+  border: 0.1rem solid var(--app-theme);
+}
+
+.wrapper .input:focus + label > small {
+  color: var(--app-theme);
+}

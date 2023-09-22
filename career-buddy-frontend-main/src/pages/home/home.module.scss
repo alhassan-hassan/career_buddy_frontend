@@ -1,0 +1,36 @@
+.loginButton {
+  background-color: transparent;
+  color: white;
+  width: 8rem;
+  margin-right: 1.5rem;
+  font-size: 110%;
+  border: 0.1rem solid white;
+  border-radius: 0.2rem;
+  cursor: pointer;
+
+  a {
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+  }
+}
+
+.registerBtn {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 8rem;
+  font-size: 110%;
+  cursor: pointer;
+  border-radius: 0.2rem;
+
+  a {
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+  }
+}
+
+.tagline {
+  color: #eee;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}

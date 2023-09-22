@@ -1,0 +1,29 @@
+.student {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 20% 10% 10% 10% 10% 30% 10%;
+}
+
+.cpa {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  height: 100vh;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  z-index: 999;
+}
+
+.admin {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 30% 10% 10% 10% 20% 10% 10%;
+  z-index: 999;
+}

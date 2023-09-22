@@ -1,0 +1,99 @@
+.modal-header-job {
+    position: relative;
+    top: 2%;
+    width: 650px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1rem 2rem 3rem;
+    text-align: center;
+    max-height: 900px;
+}
+
+.close-job {
+    color: #a76a99;
+    font-size: 1.7rem;
+    float: right;
+    cursor: pointer;
+}
+
+.header {
+    color: #a76a99;
+    margin: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.inputs-jobs {
+    width: 100%;
+
+    .inputs {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            text-align: left;
+        }
+    }
+
+    label {
+        color: rgba(0, 0, 0,0.6);
+        font-size: small;
+    }
+
+    input {
+        border:1px solid #a76a99;
+        width: 280px;
+        height: 40px;
+        margin: 0.5rem 0 1.2rem;
+        padding: 0.5rem;
+        border-radius: 5px;
+    }
+}
+
+#description {
+    width: 585px;
+    height: 70px;
+    border: 1px solid #a76a99;
+    border-radius: 5px;
+    margin: 0.5rem 0 1rem;
+    padding: 0.5rem;
+}
+
+#logo {
+    height: 23px;
+    margin: 0;
+    padding: 0;
+    margin-left: 1.5rem;
+}
+
+.attachmemt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 2rem;
+}
+
+#attach {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.poster {
+    margin-top: 3rem;
+    background-color: #a76a99;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 0.7rem 1rem ;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#site {
+    width: 585px;
+    border: 1px solid #a76a99;
+    border-radius: 5px;
+}

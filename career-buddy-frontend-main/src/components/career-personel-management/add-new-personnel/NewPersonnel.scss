@@ -1,0 +1,111 @@
+.new-personnel {
+    position: absolute;
+}
+
+.adding-new {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 4%);
+    width: 550px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    position: relative;
+    top: 2%;
+    height: 650px;
+
+
+    input {
+      background-color: #f7f7f7;
+      border: none;
+      outline: none;
+      padding: 0.7rem;
+      width: 100%;
+      margin: 0.8rem 0;
+      border-bottom: 0.1rem solid transparent;
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: #333;
+      border-radius: 0.7rem;
+    }
+
+    input[type="radio"] {
+    accent-color: var(--app-theme);
+    }
+
+    input:focus,
+    input:hover {
+    background-color: #f2f2f2;
+    // border-bottom: 0.1rem solid var(--app-theme);
+    }
+
+    button {
+    outline: none;
+    border: none;
+    background-color: var(--app-theme);
+    color: white;
+    padding: 1rem 1rem;
+    width: 100%;
+    cursor: pointer;
+    margin: 1rem 0;
+    border-radius: 0.2rem;
+    font-size: 105%;
+    }
+}
+
+
+.radios {
+    display: flex;
+    flex-flow: column;
+  
+    h2 {
+      color: #555;
+    }
+  
+    & > div {
+      margin: 0.3rem 0;
+      margin-left: 1rem;
+    }
+  
+    label {
+      color: #212121;
+      cursor: pointer;
+    }
+  
+    input[type="radio"] {
+      margin-right: 0.5rem;
+  
+      &:checked + label {
+        align-items: center;
+        color: var(--app-theme);
+      }
+    }
+  }
+  
+  .loginlink{
+    a{
+      color: var(--app-theme);
+      text-decoration: none;
+      display: inline-block;
+      margin: 0.5rem 0;
+    }
+  }
+  
+.the-choice-new {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice-child-new {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.the-choice-new input {
+    accent-color: #a76a99;  
+    margin-right: 0.5rem;
+    width: 45%;
+    height: 45%;
+}
